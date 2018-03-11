@@ -1,0 +1,12 @@
+x = cos (t) + ln (tan (t) / 2)
+y = sin (t)
+dx = diff (x, t)
+dy = diff (y, t)
+mostrar (dx2)
+mostrar (dy2)
+dx2 = dx ^ 2
+dy2 = dy ^ 2
+espectáculo (dx ^ 2)
+espectáculo (dy ^ 2)
+resultado = integral (sqrt (dx2 + dy2)), t, pi / 4, 3 * pi / 4)
+show(resultado)
